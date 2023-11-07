@@ -4,6 +4,10 @@
         <ProjectReference Include="..\QueueService.Domain\QueueService.Domain.csproj" />
         <ProjectReference Include="..\QueueService.Infra\QueueService.Infra.csproj" />
     </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Class1.cs" />
+    </ItemGroup>
     
     <PropertyGroup>
         <TargetFramework>net7.0</TargetFramework>
