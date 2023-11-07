@@ -1,0 +1,251 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.API\\QueueService.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.API\\QueueService.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.API\\QueueService.API.csproj",
+        "projectName": "QueueService.API",
+        "projectPath": "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.API\\QueueService.API.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Application\\QueueService.Application.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Application\\QueueService.Application.csproj"
+              },
+              "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Domain\\QueueService.Domain.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Domain\\QueueService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Application\\QueueService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Application\\QueueService.Application.csproj",
+        "projectName": "QueueService.Application",
+        "projectPath": "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Application\\QueueService.Application.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Domain\\QueueService.Domain.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Domain\\QueueService.Domain.csproj"
+              },
+              "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Infra\\QueueService.Infra.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Infra\\QueueService.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Domain\\QueueService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Domain\\QueueService.Domain.csproj",
+        "projectName": "QueueService.Domain",
+        "projectPath": "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Domain\\QueueService.Domain.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Infra\\QueueService.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Infra\\QueueService.Infra.csproj",
+        "projectName": "QueueService.Infra",
+        "projectPath": "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Infra\\QueueService.Infra.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Domain\\QueueService.Domain.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\RiderProjects\\QueueService\\QueueService.Domain\\QueueService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
